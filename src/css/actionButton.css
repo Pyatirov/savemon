@@ -1,0 +1,24 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 15px;
+    border: 0px;
+    transition: 0.4s ease;
+}
+
+.btn.size-35{
+   height: 35px;
+   border-radius: 5px;
+   font-size: 14px;
+}
+
+.btn.btnTheme__brassAndWhite{
+    background-color: var(--color-brassLight);
+    color: var(--color-blackGray);
+}
+
+.btn:hover{
+    background-color: var(--color-grayWarm);
+    cursor: pointer;
+}
